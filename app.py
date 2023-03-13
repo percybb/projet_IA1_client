@@ -32,10 +32,9 @@ selected_option = st.sidebar.selectbox("Selected Option", option)
 # st.write('You selected `%s`' % filename)
 
 if selected_option == "EDA":
-    # eda_fun()
-    st.write("Choose a transform type and model from the option below:")
-
+    eda_fun()
+    
 elif selected_option == "Predictive modelling":
     st.subheader("Predictive Modelling")
     st.write("Choose a transform type and model from the option below:")
-    # ml_fucntion()
+    ml_fucntion()
